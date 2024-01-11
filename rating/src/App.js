@@ -11,7 +11,6 @@ const App = () => {
     const blackStars = totalStars - rating;
 
     return (
-
       <div>
         {[...Array(rating)].map((_, index) => (
           <span key={index} style={{ color: 'gold' }}>★</span>
