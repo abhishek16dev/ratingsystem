@@ -1,17 +1,8 @@
 
 import './App.css';
 import Modal from 'react-modal';
-
-
-
-
 import React, { useState } from 'react';
-
-
-
 const App = () => {
-
-
   const [open, setOpen] = React.useState(false);
 
   const StarRating = ({ rating }) => {
